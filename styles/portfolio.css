@@ -33,7 +33,9 @@
 main style
 
 header{
-  background-color:#d5a47d;
+  background-color:#d5a47d; 
+  background: url("../images/developer.png");
+  background-repeat: no-repeat;
   padding-top: 50px;
 }
 
@@ -55,4 +57,36 @@ nav .menu a {
   font-size: 20px;
   color: #474747;
   text-decoration: none;
+}
+
+#banner{
+  border: 1px solid red;
+  margin: 47px 38px 0px 230pxd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  #banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+  }
+#banner .banner-content h1{
+  font-size: 85px;
+  font-weight: bold;
+  color: #181818;
+  margin: 20px;
+}
+#banner .banner-content p{
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+}
+
+#banner .banner-image img{
+  max-width: 585px;
+  vertical-align: middle;
+}
+
+
 }
