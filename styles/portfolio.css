@@ -104,7 +104,9 @@ nav .menu a {
   vertical-align: middle;
 }
 
-#about{
+#about 
+#skills,
+#resume {
   padding-top: 130px;
 }
 
@@ -150,4 +152,23 @@ nav .menu a {
 .skill-card img {
   max-width: 44px;
   margin-bottom: 30px;
+
+}
+#resume .resume-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 113px auto 0;
+  display: flex;
+  gap: 24px;
+}
+
+.resume-container .section-title{
+  color:#474747;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.resume-card{
+  max-width: 511px;
+  margin-right: 47px;
 }
